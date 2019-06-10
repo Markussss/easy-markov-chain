@@ -16,7 +16,7 @@ const chain = require('easy-markov-chain')
 
 let messages = [ … ] // an array of messages, sentences, strings
 
-for (message of messages) {
+for (let message of messages) {
     chain.learn(message)
 }
 
