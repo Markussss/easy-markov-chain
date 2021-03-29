@@ -1,8 +1,9 @@
 {
   "name": "easy-markov-chain",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Easy Markov Chain generator",
   "main": "index.js",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markussss/easy-markov-chain.git"

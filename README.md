@@ -12,7 +12,9 @@ npm install easy-markov-chain
 ## Usage
 
 ```javscript
-const chain = require('easy-markov-chain')
+import Chain from 'easy-markov-chain';
+
+const chain = new Chain();
 
 let messages = [ … ] // an array of messages, sentences, strings
 
@@ -24,4 +26,3 @@ chain.normalize()
 
 console.log(chain.generate(10))
 ```
-
